@@ -4,12 +4,522 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Shopora - Modern E-Commerce</title>
+
   <link rel="stylesheet" href="style.css">
-  <title>Document</title>
+
+  <!-- Google Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 </head>
 
 <body>
-  <h1 class="unit">hello brother</h1>
+
+  <!-- ================= NAVBAR ================= -->
+  <header class="navbar">
+    <div class="container nav-content">
+
+      <a href="#" class="logo">
+        Shop<span>ora</span>
+      </a>
+
+      <nav class="nav-links">
+        <a href="#home">Home</a>
+        <a href="#categories">Categories</a>
+        <a href="#products">Products</a>
+        <a href="#deals">Deals</a>
+      </nav>
+
+      <div class="nav-actions">
+        <button class="icon-btn">⌕</button>
+        <button class="icon-btn">♡</button>
+        <button class="cart-btn">
+          🛒 <span>2</span>
+        </button>
+      </div>
+
+    </div>
+  </header>
+
+
+  <!-- ================= HERO ================= -->
+  <main>
+
+    <section class="hero" id="home">
+      <div class="container hero-content">
+
+        <div class="hero-text">
+
+          <p class="small-title">NEW COLLECTION 2026</p>
+
+          <h1>
+            Find Your
+            <span>Perfect Style.</span>
+          </h1>
+
+          <p class="hero-description">
+            Discover premium products, modern designs and
+            unbeatable prices — all in one place.
+          </p>
+
+          <div class="hero-buttons">
+            <a href="#products" class="primary-btn">
+              Shop Now →
+            </a>
+
+            <a href="#categories" class="secondary-btn">
+              Explore Categories
+            </a>
+          </div>
+
+          <div class="hero-stats">
+
+            <div>
+              <strong>10K+</strong>
+              <span>Products</span>
+            </div>
+
+            <div>
+              <strong>25K+</strong>
+              <span>Customers</span>
+            </div>
+
+            <div>
+              <strong>4.9★</strong>
+              <span>Rating</span>
+            </div>
+
+          </div>
+
+        </div>
+
+        <div class="hero-image">
+
+          <div class="sale-badge">
+            <strong>50%</strong>
+            <span>OFF</span>
+          </div>
+
+          <img src="https://images.unsplash.com/photo-1441986300917-64674bd600d8?auto=format&fit=crop&w=900&q=80"
+            alt="Fashion Store">
+
+        </div>
+
+      </div>
+    </section>
+
+
+    <!-- ================= CATEGORIES ================= -->
+
+    <section class="categories section" id="categories">
+
+      <div class="container">
+
+        <div class="section-heading">
+          <div>
+            <p class="section-label">SHOP BY CATEGORY</p>
+            <h2>Explore Categories</h2>
+          </div>
+
+          <a href="#" class="view-all">View All →</a>
+        </div>
+
+
+        <div class="category-grid">
+
+          <div class="category-card">
+            <div class="category-icon">👕</div>
+            <h3>Fashion</h3>
+            <p>1,250 Items</p>
+          </div>
+
+          <div class="category-card">
+            <div class="category-icon">⌚</div>
+            <h3>Watches</h3>
+            <p>580 Items</p>
+          </div>
+
+          <div class="category-card">
+            <div class="category-icon">🎧</div>
+            <h3>Electronics</h3>
+            <p>920 Items</p>
+          </div>
+
+          <div class="category-card">
+            <div class="category-icon">👟</div>
+            <h3>Shoes</h3>
+            <p>760 Items</p>
+          </div>
+
+          <div class="category-card">
+            <div class="category-icon">🎒</div>
+            <h3>Accessories</h3>
+            <p>430 Items</p>
+          </div>
+
+          <div class="category-card">
+            <div class="category-icon">🏠</div>
+            <h3>Home & Living</h3>
+            <p>1,100 Items</p>
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- ================= PRODUCTS ================= -->
+
+    <section class="products section" id="products">
+
+      <div class="container">
+
+        <div class="section-heading">
+
+          <div>
+            <p class="section-label">TRENDING NOW</p>
+            <h2>Popular Products</h2>
+          </div>
+
+          <a href="#" class="view-all">View All →</a>
+
+        </div>
+
+
+        <div class="product-grid">
+
+          <!-- Product 1 -->
+          <article class="product-card">
+
+            <div class="product-image">
+
+              <span class="product-tag">-20%</span>
+
+              <button class="wishlist">♡</button>
+
+              <img src="https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&w=600&q=80"
+                alt="Classic Watch">
+
+            </div>
+
+            <div class="product-info">
+
+              <p class="product-category">WATCHES</p>
+
+              <h3>Classic Premium Watch</h3>
+
+              <div class="rating">
+                ★★★★★ <span>(124)</span>
+              </div>
+
+              <div class="price">
+                <strong>$79.99</strong>
+                <del>$99.99</del>
+              </div>
+
+              <button class="add-cart">
+                Add to Cart
+              </button>
+
+            </div>
+
+          </article>
+
+
+          <!-- Product 2 -->
+          <article class="product-card">
+
+            <div class="product-image">
+
+              <span class="product-tag">NEW</span>
+
+              <button class="wishlist">♡</button>
+
+              <img src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&w=600&q=80"
+                alt="Running Shoes">
+
+            </div>
+
+            <div class="product-info">
+
+              <p class="product-category">SHOES</p>
+
+              <h3>Urban Running Shoes</h3>
+
+              <div class="rating">
+                ★★★★★ <span>(89)</span>
+              </div>
+
+              <div class="price">
+                <strong>$64.99</strong>
+              </div>
+
+              <button class="add-cart">
+                Add to Cart
+              </button>
+
+            </div>
+
+          </article>
+
+
+          <!-- Product 3 -->
+          <article class="product-card">
+
+            <div class="product-image">
+
+              <span class="product-tag">-15%</span>
+
+              <button class="wishlist">♡</button>
+
+              <img src="https://images.unsplash.com/photo-1505740420928-5e560c06d30e?auto=format&fit=crop&w=600&q=80"
+                alt="Wireless Headphones">
+
+            </div>
+
+            <div class="product-info">
+
+              <p class="product-category">ELECTRONICS</p>
+
+              <h3>Wireless Headphones</h3>
+
+              <div class="rating">
+                ★★★★★ <span>(210)</span>
+              </div>
+
+              <div class="price">
+                <strong>$84.99</strong>
+                <del>$99.99</del>
+              </div>
+
+              <button class="add-cart">
+                Add to Cart
+              </button>
+
+            </div>
+
+          </article>
+
+
+          <!-- Product 4 -->
+          <article class="product-card">
+
+            <div class="product-image">
+
+              <span class="product-tag">HOT</span>
+
+              <button class="wishlist">♡</button>
+
+              <img src="https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?auto=format&fit=crop&w=600&q=80"
+                alt="Premium T Shirt">
+
+            </div>
+
+            <div class="product-info">
+
+              <p class="product-category">FASHION</p>
+
+              <h3>Premium Cotton T-Shirt</h3>
+
+              <div class="rating">
+                ★★★★★ <span>(156)</span>
+              </div>
+
+              <div class="price">
+                <strong>$29.99</strong>
+              </div>
+
+              <button class="add-cart">
+                Add to Cart
+              </button>
+
+            </div>
+
+          </article>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- ================= DEAL BANNER ================= -->
+
+    <section class="deal-section" id="deals">
+
+      <div class="container">
+
+        <div class="deal-banner">
+
+          <div class="deal-content">
+
+            <p>LIMITED TIME OFFER</p>
+
+            <h2>
+              Big Summer Sale
+            </h2>
+
+            <h3>
+              Up to <span>50% OFF</span>
+            </h3>
+
+            <a href="#products" class="deal-btn">
+              Shop The Sale →
+            </a>
+
+          </div>
+
+          <div class="deal-shape">
+            50%
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- ================= FEATURES ================= -->
+
+    <section class="features">
+
+      <div class="container feature-grid">
+
+        <div class="feature">
+          <div class="feature-icon">🚚</div>
+          <div>
+            <h3>Free Shipping</h3>
+            <p>On orders over $50</p>
+          </div>
+        </div>
+
+        <div class="feature">
+          <div class="feature-icon">↩</div>
+          <div>
+            <h3>Easy Returns</h3>
+            <p>30-day return policy</p>
+          </div>
+        </div>
+
+        <div class="feature">
+          <div class="feature-icon">🔒</div>
+          <div>
+            <h3>Secure Payment</h3>
+            <p>100% secure checkout</p>
+          </div>
+        </div>
+
+        <div class="feature">
+          <div class="feature-icon">💬</div>
+          <div>
+            <h3>24/7 Support</h3>
+            <p>We're here to help</p>
+          </div>
+        </div>
+
+      </div>
+
+    </section>
+
+  </main>
+
+
+  <!-- ================= FOOTER ================= -->
+
+  <footer>
+
+    <div class="container footer-grid">
+
+      <div class="footer-about">
+
+        <a href="#" class="logo">
+          Shop<span>ora</span>
+        </a>
+
+        <p>
+          Your destination for premium products,
+          modern style and everyday essentials.
+        </p>
+
+        <div class="socials">
+          <a href="#">f</a>
+          <a href="#">𝕏</a>
+          <a href="#">in</a>
+          <a href="#">◎</a>
+        </div>
+
+      </div>
+
+
+      <div class="footer-column">
+
+        <h3>Shop</h3>
+
+        <a href="#">New Arrivals</a>
+        <a href="#">Best Sellers</a>
+        <a href="#">Fashion</a>
+        <a href="#">Electronics</a>
+        <a href="#">Accessories</a>
+
+      </div>
+
+
+      <div class="footer-column">
+
+        <h3>Support</h3>
+
+        <a href="#">Contact Us</a>
+        <a href="#">Shipping</a>
+        <a href="#">Returns</a>
+        <a href="#">FAQ</a>
+        <a href="#">Privacy Policy</a>
+
+      </div>
+
+
+      <div class="footer-column">
+
+        <h3>Newsletter</h3>
+
+        <p>
+          Subscribe to get special offers and
+          updates.
+        </p>
+
+        <div class="newsletter">
+          <input type="email" placeholder="Your email">
+          <button>→</button>
+        </div>
+
+      </div>
+
+    </div>
+
+
+    <div class="footer-bottom">
+
+      <div class="container">
+
+        <p>
+          © 2026 Shopora. All rights reserved.
+        </p>
+
+        <p>
+          Designed & Developed with ❤️
+        </p>
+
+      </div>
+
+    </div>
+
+  </footer>
+
 </body>
 
 </html>
